@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    width: 100%;
+    height: 60px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+nav .logo {
+    font-size: 1.25rem;
+    color: black;
+    transition: .2s;
+}
+nav .logo:hover {
+    letter-spacing: 0.5px;
+}
+nav ul {
+    justify-content: flex-start;
+}
+nav ul li {
+    position: relative;
+    float: left;
+}
+nav ul li a {
+    display: flex;
+    margin-right: 30px;
+    color: #181819;
+    font-size: 15px;
+    transition: .2s;
+}
+nav ul li a:hover {
+    color:rgb(126, 126, 126);
+}
+nav ul li ul {
+    margin: 20px 0;
+    position: absolute;
+    left: 0;
+    background: #f8f9fa;
+    display: none;
+}
+nav ul li:hover > ul {
+    display: initial;
+}
+nav ul li ul li {
+    width: 125px;
+    margin: 5px 0;
+}
+.fa-solid {
+    font-size: 0.7rem;
+    padding: 4px; 
+}
+.line_nav {
+    border-bottom: 1px solid gainsboro;
+}
+
+.btn {
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    transition: .25s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: black;
+    color: #fff;
+}
+.btn span {
+    padding: 0 7px;
+    align-items: flex-end;
+    border-radius: 22px;
+    background-color: black;
+    color: #fff;
+}
+.container {
+    padding: 5% 10%;
+    display: flex;
+    align-items: center;
+}
+img {
+    max-width: 100%;
+}
+.image {
+    width: 200%;
+    margin-right: 10%;
+}
+.item_model {
+    font-size: 12px;
+    margin-bottom: .25rem;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: .5rem;
+}
+.mb_3 {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+}
+.text_decoration_line_through {
+    text-decoration: line-through;
+}
+.item_info {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 1.25rem;
+}
+#shop_num {
+
+    max-width: 3rem;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    line-height: 1,5;
+    text-align: center;
+    padding: .7rem 0.2rem .7rem 0.75rem;
+    text-decoration: none;
+}
+.item-2 {
+    background-color: #f8f9fa;
+}
+.products {
+    padding-top: 3rem;
+    width: 100%;
+}
+#related_products {
+    font-size: 34px;
+    padding-bottom: 1.5rem;
+}
+.product_cards {
+    display: flex;
+    padding-bottom: 0;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1.5rem;
+    border: 1px solid #dfdfdf;
+    border-radius: 4px;
+    text-align: center;
+    flex-direction: column;
+}
+.cards:last-child {
+    margin-right: 0;
+}
+.badge {
+    position: absolute;
+    border-style:none;
+    background-color: black;
+    color:#fff;
+    border-radius: 6px;
+    font-size: .75rem;
+    padding: 3px;
+    transition: .25s;
+}
+.badge:hover {
+    transform: scale(1.1);
+}
+.bg-1 {
+    right: 42.2rem;
+    top: 59.4rem;
+}
+.bg-2 {
+    right: 25.5rem;
+    top: 59.4rem;
+}
+.card_body {
+    padding: 1.5rem;
+    
+}
+h3 {
+    font-size: 20px;
+    padding-bottom: .25rem;
+}
+.stars i {
+    padding: .25rem 0;
+}
+.discount {
+    padding-top: .25rem;
+}
+.card_footer {
+    padding: 1.5rem;
+}
+.card_footer .btn {
+    padding: 8px 15px;
+    
+}
+footer {
+    background-color: #212529;
+    color:white;
+    text-align: center;
+    padding: 3rem;
+}
